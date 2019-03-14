@@ -1,0 +1,85 @@
+/* @import url('halloween.css'); */
+
+body {
+    color: red;
+    font-family: arial;
+    font-size: 100%;
+    background-color: #73E3EF;
+    padding: 30px;
+}
+
+article {
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-family: Courier;
+    font-size: 2em;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 5%;
+    height: 30%;
+}
+
+h2 {
+    color: green;
+    font-style: italic;
+    font-size: 1.5em;
+    background: rgb(249,64,172); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(249,64,172,1) 0%, rgba(55,223,242,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(249,64,172,1) 0%,rgba(55,223,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(249,64,172,1) 0%,rgba(55,223,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f940ac', endColorstr='#37dff2',GradientType=0 ); /* IE6-9 */
+
+}
+
+header {
+    text-align: center;
+}
+
+header h2, #hipster h2 span {
+    color: black;
+}
+
+h2 span {
+    color: black;
+}
+
+p {
+    color: blue;
+    font-size: 18px;
+}
+
+p.two {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+a:link {
+    color: white;
+    background-color: red;
+}
+
+a:hover {
+    color: red;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    font-weight: bold;
+}
+
+li {
+    font-variant: small-caps;
+    list-style-type: none;
+    padding: 10px;
+}
+

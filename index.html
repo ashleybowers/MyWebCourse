@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basics of HTML, CSS and JavaScript</title>
+    <script>
+        function init() {
+            document.getElementById("name").innerHTML = 'Ashley';
+            document.getElementById("email").innerHTML = 'amb@gmail.com';
+            document.getElementById("hobbies").innerHTML = 'Watching TV';
+        }
+    </script>
+    <style>
+        div {
+            font-family: arial;
+            font-weight: bold;
+            font-size: 24pt;
+            width: 400px;
+            padding: 10px;
+            border: 1px solid rgb(231, 76, 172);
+            background-color: black;
+            color: rgb(231, 76, 172);
+            text-align: left;
+            margin: auto;
+        }
+
+        #name {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body onload="init()">
+    <div id="name"></div>
+    <div id="email"></div>
+    <div id="hobbies"></div>
+</body>
+
+</html>
